@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch';
+    font-family: 'The Nautigal';
+    background-color: rgb(95, 70, 70);
+    text-align: center;
+    margin-top: 5vh;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch';
+    font-family: 'The Nautigal';
+    background-color: bisque;
+    color: rgb(90, 87, 85);
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 60px 70px;
+}
+
+button:hover {
+    background-color: rgb(235, 208, 176);
+    cursor: pointer;
+}
+
+.spieler1 {
+    margin-top: 5vh;
+    color: bisque;
+    font-size: 5vh;
+}
+
+#winnerIs {
+    margin-top: 10vh;
+    color: bisque;
+    font-size: 15vh;
+}
