@@ -5,26 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Smooch&family=The+Nautigal&display=swap" rel="stylesheet">
     <title>Document</title>
     <script src="index.js"></script>
+
+
 </head>
 
 <body>
     <div>
-        <button onclick="pressButton( 'schere')" type="button"> Schere ✂️ </button>
-        <button onclick="pressButton( 'stein')" type="button"> Stein 🪨</button>
-        <button onclick="pressButton( 'papier')" type="button"> Papier 📑</button>
+        <button onclick="pressButton( 'Schere ✂️')" type="button"> Schere ✂️ </button>
+        <button onclick="pressButton( 'Stein 🪨')" type="button"> Stein 🪨</button>
+        <button onclick="pressButton( 'Papier 📑')" type="button"> Papier 📑</button>
     </div>
 
     <div>
-        <div>
-            kevin spielt: <span id="kevin"></span>
+        <div class="spieler1">
+            Kevin spielt: <span id="kevin"></span>
         </div>
-        <div>
+        <div class="spieler1">
             Computer spielt: <span id="computer"></span>
         </div>
-        <div>
-            <span id="gewinner"></span> Gewinnt
+        <div id="winnerIs">
+            <span id="gewinner"></span>
         </div>
     </div>
 
