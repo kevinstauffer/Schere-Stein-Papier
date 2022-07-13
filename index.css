@@ -1,4 +1,6 @@
 body {
+    font-size: 5vh;
+    color: bisque;
     font-family: 'Roboto', sans-serif;
     font-family: 'Smooch';
     font-family: 'The Nautigal';
@@ -30,7 +32,8 @@ button:hover {
 }
 
 #winnerIs {
-    margin-top: 10vh;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
     color: bisque;
     font-size: 15vh;
 }
